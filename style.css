@@ -1,0 +1,62 @@
+div {
+    padding: 25px 50px 75px 100px;
+}
+p {color: blue;}
+div p { text-decoration: underline;}
+p1 {
+    margin: 25px 50px;
+}
+p {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+p {
+
+ font-family: Arial, Times, serif;
+}
+div a {color: red;}
+.crossed-out {font-size: 24px; text-decoration: line-through;}
+.color-1 {background-color: mediumpurple;}
+.color-2 {background-color: skyblue;}
+p {display: inline-black; border: 2px solid red; padding: 32px}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+body {min-height: 100vh; background-image: linear-gradient(dodgerblue,lightsalmon);color:black;}
+bacground-color: lightblue;}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 16px;
+}
+
+button:active + div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://i.giphy.com/media/8TweEdaxxfuElKkRxz/giphy.webp);
+  background-size: cover;
+  background-position: center;
+}
